@@ -7,15 +7,15 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="relative mx-auto flex w-full shrink-0 items-center justify-between px-6 py-6">
+    <header className="relative mx-auto flex w-full shrink-0 items-center justify-between px-6 py-4">
       <Link href="/" className="flex items-center">
         <Image
           src={logo}
           alt="Drope AI"
-          width={40}
-          height={40}
+          width={32}
+          height={32}
           quality={100}
-          className="h-10 w-10 object-contain"
+          className="h-8 w-8 object-contain"
           priority
         />
         <span className="ml-3 text-xl font-bold text-gray-900">drope</span>
