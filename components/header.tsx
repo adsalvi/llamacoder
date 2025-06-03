@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import GithubIcon from "@/components/icons/github-icon";
-import logo from "@/public/drope-logo.jpg";
+import logo from "@/public/drope-logo-new.jpg";
 import Link from "next/link";
 
 export default function Header() {
@@ -10,7 +10,9 @@ export default function Header() {
       <Link href="/">
         <Image
           src={logo}
-          alt=""
+          alt="drope ARTIFICIAL INTELLIGENCE"
+          width={120}
+          height={36}
           quality={100}
           className="mx-auto h-9 object-contain"
           priority
