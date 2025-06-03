@@ -341,12 +341,15 @@ export default function Home() {
             <div className="font-medium">
               Built with{" "}
               <a
-                href="https://drope.ai"
+                href="https://dropeai.com"
                 className="font-semibold text-blue-600 underline-offset-4 transition hover:text-gray-700 hover:underline"
               >
                 Drope AI
               </a>{" "}
               - Artificial Intelligence that understands.
+            </div>
+            <div className="text-sm text-gray-600 mt-1">
+              Need help to build an app, write to: admin@dropeai.com
             </div>
           </div>
           <div className="flex space-x-4 pb-4 sm:pb-0">
