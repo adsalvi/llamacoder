@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 
 import GithubIcon from "@/components/icons/github-icon";
@@ -6,24 +7,25 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="relative mx-auto flex w-full shrink-0 items-center justify-center py-6">
-      <Link href="/">
+    <header className="relative mx-auto flex w-full shrink-0 items-center justify-between px-6 py-6">
+      <Link href="/" className="flex items-center">
         <Image
           src={logo}
-          alt="drope ARTIFICIAL INTELLIGENCE"
-          width={120}
-          height={36}
+          alt="Drope AI"
+          width={40}
+          height={40}
           quality={100}
-          className="mx-auto h-9 object-contain"
+          className="h-10 w-10 object-contain"
           priority
         />
+        <span className="ml-3 text-xl font-bold text-gray-900">drope</span>
       </Link>
 
-      <div className="absolute right-3">
+      <div className="flex items-center">
         <a
           href="https://github.com/drope-ai"
           target="_blank"
-          className="ml-auto hidden items-center gap-3 rounded-full bg-white/95 px-5 py-2 text-sm font-medium text-gray-700 shadow-sm ring-1 ring-gray-100 transition-all hover:bg-white hover:shadow-md hover:ring-gray-200 sm:flex"
+          className="flex items-center gap-3 rounded-full bg-white/95 px-5 py-2 text-sm font-medium text-gray-700 shadow-sm ring-1 ring-gray-100 transition-all hover:bg-white hover:shadow-md hover:ring-gray-200"
         >
           <GithubIcon className="h-[18px] w-[18px]" />
           <div className="flex items-center gap-1.5">
