@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import GithubIcon from "@/components/icons/github-icon";
-import logo from "@/public/drope-logo.png";
+import logo from "@/public/drope-logo.jpg";
 import Link from "next/link";
 
 export default function Header() {
